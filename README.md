@@ -18,7 +18,7 @@ I've created a couple of Notion templates and one of them is for music projects.
 This tool catches data from available sources and create Notion Pages using those data. It makes use of Notion API to import data, and the source can be anything (plugins).
 
 
-### Datasources
+## Datasources
 
 What kind of sources are available?
 
@@ -31,6 +31,11 @@ The result expected is: everytime a new folder X is created under a folder Y, it
 
 There is also an option `--watch` which watches for a specific datasource and creates the pages without any manual input.
 
+### Different datasources
+
+As I need only this specific datasource, I'm not going to build any other (only when I need). 
+
+That's why I'm building this tool to accept other datasources, but they need to be developed as external plugins and added on the tool.
 
 
 
